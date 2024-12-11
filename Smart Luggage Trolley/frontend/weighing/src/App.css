@@ -1,0 +1,29 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  color: white;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 15px 30px;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 10px 0; 
+}
+
+.explore-button:hover {
+  background: rgba(0, 0, 255, 0.7);
+}

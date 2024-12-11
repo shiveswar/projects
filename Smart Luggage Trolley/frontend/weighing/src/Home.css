@@ -1,0 +1,31 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Full height of the viewport */
+  color: white;
+  background: #282c34; /* Optional: Set a background color */
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center; /* Center text for title */
+}
+
+.explore-button {
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 15px 30px;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s; /* Transition for hover effect */
+}
+
+/* Hover effect for explore button */
+.explore-button:hover {
+  background: rgba(0, 0, 255, 0.7); /* Change background color on hover */
+}

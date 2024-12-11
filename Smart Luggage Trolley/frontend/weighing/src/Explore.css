@@ -1,0 +1,111 @@
+.exploreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .checkWeight,
+  .checkWeightDatabase {
+    font-family: 'Roboto', sans-serif; /* Use your desired font here */
+    font-size: 24px; /* Adjust the size as needed */
+    color: white; /* Default text color */
+    background: cornflowerblue; /* Default button color */
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 300px; /* Set a consistent width */
+    transition: background 0.3s ease, color 0.3s ease; /* Add transition for color change */
+    font-weight: bold; /* Make the font bold */
+  }
+  
+  /* Change styles on hover */
+  .checkWeight:hover,
+  .checkWeightDatabase:hover {
+    background: rgba(0, 0, 255, 0.7); /* Change button background to a less saturated blue on hover */
+    color: black; /* Change text color to black on hover */
+  }
+  .inputBox {
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid cornflowerblue;
+    padding-left: 8px;
+    margin: 10px;
+  }
+  /* src/Explore.css */
+
+/* src/Explore.css */
+
+/* Existing styles */
+
+.checkWeightContainer,
+.checkWeightDatabaseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ticketInput {
+  height: 40px;
+  width: 300px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+  margin: 10px 0;
+}
+
+.submitButton {
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.submitButton:hover {
+  color: black; /* Change font color on hover */
+  background: rgba(0, 0, 139, 0.7); /* Darker blue with reduced saturation */
+  font-weight: bold; /* Make the font bold */
+}
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.displayWeightContainer {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    color: rgb(112, 123, 222); /* Text color */
+    background:white; /* Background color */
+  }
+  
+  .displayWeightContainer h2 {
+    font-size: 28px; /* Title font size */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center text */
+  }
+  
+  .displayWeightContainer p {
+    font-size: 20px; /* Paragraph font size */
+    margin: 5px 0; /* Space above and below each paragraph */
+  }
+  
+  /* Specific styling for the notification */
+  .notification {
+    color: red; /* Text color for notification */
+    font-weight: bold; /* Make notification bold */
+  }
+  
